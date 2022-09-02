@@ -18,11 +18,11 @@
 #
 <a id="website-link"></a>
 
-### Link to Website: [Code for the Bold](https://adodt.github.io/portfolio/)
+### Link to Website: [Website](https://adodt.github.io/portfolio/)
 
 <a id="github-repo"></a>
 
-### Github Repository: [portfolio](https://github.com/adodt/password-generator)
+### Github Repository: [password-generator](https://github.com/adodt/password-generator)
 
 #
 ### Screenshot 
