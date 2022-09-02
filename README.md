@@ -18,7 +18,7 @@
 #
 <a id="website-link"></a>
 
-### Link to Website: [Website](https://adodt.github.io/portfolio/)
+### Link to Website: [Website](https://adodt.github.io/password-generator/)
 
 <a id="github-repo"></a>
 
@@ -27,7 +27,7 @@
 #
 ### Screenshot 
 <div align="center">
-<img src="assets/images/adodt-screenshot.png" width ="500px"/>
+<img src="assets/adodt-screenshot.png" width ="500px"/>
 </div>
 
 <a id="license"></a>
