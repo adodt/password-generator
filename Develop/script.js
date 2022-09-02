@@ -1,4 +1,4 @@
-// Assignment Code
+ // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
@@ -11,7 +11,7 @@ function writePassword() {
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", writePassword); 
 
 // Various Arrays 
 var number = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
@@ -31,8 +31,8 @@ function generatePassword() {
   var confirmLength = (prompt("How many characters would you like your password to contain?"));
 
   // Loop if answer is outside the parameters 
-  while(confirmLength <= 7 || confirmLength >= 51) {
-      alert("Password length must be between 8-50 characters Try again");
+  while(confirmLength <= 8 || confirmLength >= 128) {
+      alert("Password length must be between 8-128 characters Try again");
       var confirmLength = (prompt("How many characters would you like your password to contain?"));
       } 
 
@@ -53,7 +53,7 @@ function generatePassword() {
         var confirmUpperCase = confirm("Click OK to confirm if you would like to include uppercase characters");   
     } 
 
-      // Assign an action to the password parameters NEED TO FIX THIS
+      // Assign an action to the password parameters
       var passwordCharacters = []
       
     if (confirmSpecialCharacter) {
